@@ -3,7 +3,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Counter from "./components/Counter";
-import ContextCounter from "./components/ContextCounter";
+import ContextCounter from "./components/ContextCounterUI";
+import Todo from "./components/Todo";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
       {/* <Counter /> */}
-      <ContextCounter />
+      {/* <ContextCounter /> */}
+      <Todo/>
     </>
   );
 }
