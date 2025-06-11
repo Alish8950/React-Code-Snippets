@@ -7,11 +7,11 @@ import {
   decreament,
   increament,
   increamentByAmount,
-} from "./redux/slice/counterSlice";
+} from "../../react-hook-form/src/redux/slices/counterSlice";
 
 function App() {
-  const dispatch = useDispatch();
   const { count } = useSelector((state) => state.counter);
+  const dispatch = useDispatch();
   return (
     <>
       <div>{count}</div>
