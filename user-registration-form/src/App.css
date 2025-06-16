@@ -1,0 +1,70 @@
+.form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+input, select, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.file-upload input[type="file"] {
+  margin-top: 8px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  font-size: 11px;
+}
