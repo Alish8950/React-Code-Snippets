@@ -45,6 +45,11 @@ textarea {
   min-height: 60px;
 }
 
+.file-upload {
+  display: block;
+  margin-top: 12px;
+}
+
 .file-upload input[type="file"] {
   margin-top: 8px;
 }
